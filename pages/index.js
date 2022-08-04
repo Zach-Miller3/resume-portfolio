@@ -71,24 +71,21 @@ export default function Home() {
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
             <h2 className={styles.cardt}>Next.js &rarr;</h2>
-            <p className={styles.cardp}> Find in-depth information about Next.js features and API.</p>
-            <img src='/nextjs.svg' style={{paddingTop:'40px', width:'100%'}}/>
+            <img src='/nextjs.svg' className={styles.cardimg1}/>
           </div>
           </Tilt>
 
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
             <h2 className={styles.cardt}>Material UI &rarr;</h2>
-            <p className={styles.cardp}>Learn about Next.js in an interactive course with quizzes!</p>
-            <img src='/materialui.svg' style={{paddingTop:'40px', width:'100%'}}/>
+            <img src='/materialui.svg' className={styles.cardimg2}/>
           </div>
           </Tilt>
 
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
             <h2 className={styles.cardt}>Tailwind &rarr;</h2>
-            <p className={styles.cardp}>Discover and deploy boilerplate example Next.js projects.</p>
-            <img src='/tailwindcss.svg' style={{paddingTop:'100px', width:'100%'}}/>
+            <img src='/tailwindcss.svg' className={styles.cardimg3}/>
           </div>
          </Tilt>
           </div>
