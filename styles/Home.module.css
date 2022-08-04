@@ -723,6 +723,11 @@ width:90%;
     width:900px;
   }
 
+  .description {
+    margin-top:1rem;
+    margin-bottom:5rem;
+  }
+
   .card {
     width:20rem;
     display:flex;
