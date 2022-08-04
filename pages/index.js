@@ -55,7 +55,7 @@ export default function Home() {
           <a href='#portfolio'><Button sx={{backgroundColor:'black', color:'#a3cd3b', width:'150px', height:'50px', marginLeft:'2rem', fontSize:'18px'}}>Portfolio</Button></a>
           </div>
           </div>
-          <img style={{paddingLeft:'1rem'}} className={styles.profile} src='/profile.png'/>
+          <img className={styles.profile} src='/profile.png'/>
 
           
 
@@ -127,9 +127,6 @@ export default function Home() {
           </div>
           <ul className={styles.list1}>
           <h1 className={styles.textStyle}>Past Life</h1>
-              <li>
-                I played D1 baseball at both West Virginia University, and Mercer University
-              </li> &nbsp;
               <li>
                 Prior to development I held multiple roles as a marketer. As a result, I have spent extensive time researching consumer psychology to build products around sound business models that capture and hold users
               </li>

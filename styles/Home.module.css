@@ -141,7 +141,7 @@ font-size:1rem;
   font-size:16px;
   height:200px;
   background-color:#FFFDD0;
-  padding-right:10px;
+  padding-right:1.5rem;
   padding-left:1.5rem;
   /* border:1px solid black; */
   width:100%;
@@ -441,7 +441,7 @@ font-size:1rem;
 
 {
 .title {
-  font-size:2.1rem;
+  font-size:1.72rem;
 
 }
 
@@ -456,7 +456,7 @@ font-size:1rem;
 
 }
 .description {
-  font-size:1.75rem;
+  font-size:1.4rem;
 }
 .hero {
   flex-direction:column;
@@ -467,8 +467,8 @@ font-size:1rem;
 }
 
 .profile {
-height:300px;
-width:250px;
+height:320px;
+width:300px;
 }
 
 .hero2 {
@@ -500,7 +500,7 @@ align-items:center;
 }
 
 .list1 {
-font-size:13px;
+font-size:13.5px;
 }
 
 .container1 {
@@ -552,5 +552,9 @@ width:90%;
 .cardimg3{
   width:100%;
 
+}
+
+.textStyle {
+  font-size:2rem;
 }
 }
