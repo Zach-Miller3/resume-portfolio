@@ -70,21 +70,18 @@ export default function Home() {
           <div className={styles.hero4}>
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
-            <h2 className={styles.cardt}>Next.js &rarr;</h2>
             <img src='/nextjs.svg' className={styles.cardimg1}/>
           </div>
           </Tilt>
 
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
-            <h2 className={styles.cardt}>Material UI &rarr;</h2>
             <img src='/materialui.svg' className={styles.cardimg2}/>
           </div>
           </Tilt>
 
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
-            <h2 className={styles.cardt}>Tailwind &rarr;</h2>
             <img src='/tailwindcss.svg' className={styles.cardimg3}/>
           </div>
          </Tilt>
