@@ -36,7 +36,7 @@ export default function Home() {
     <>
       <Head>
         <title>M Studio</title>
-        <meta name="description" content="Miller Studios" name2="viewport" content2="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
@@ -70,24 +70,24 @@ export default function Home() {
           <div className={styles.hero4}>
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
-            <h2>Next.js &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2 className={styles.cardt}>Next.js &rarr;</h2>
+            <p className={styles.cardp}> Find in-depth information about Next.js features and API.</p>
             <img src='/nextjs.svg' style={{paddingTop:'40px', width:'100%'}}/>
           </div>
           </Tilt>
 
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
-            <h2>Material UI &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2 className={styles.cardt}>Material UI &rarr;</h2>
+            <p className={styles.cardp}>Learn about Next.js in an interactive course with quizzes!</p>
             <img src='/materialui.svg' style={{paddingTop:'40px', width:'100%'}}/>
           </div>
           </Tilt>
 
           <Tilt options={{scale:1}}>
           <div className={styles.card}>
-            <h2>Tailwind &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2 className={styles.cardt}>Tailwind &rarr;</h2>
+            <p className={styles.cardp}>Discover and deploy boilerplate example Next.js projects.</p>
             <img src='/tailwindcss.svg' style={{paddingTop:'100px', width:'100%'}}/>
           </div>
          </Tilt>
@@ -123,7 +123,7 @@ export default function Home() {
           </h1>
          <div className={styles.container3}>
           {/* <Slide direction='left'> */}
-          <img src='/cowboyz.png' style={{height:'600px'}}/>
+          <img className={styles.cowboy} src='/cowboyz.png'/>
           {/* </Slide> */}
           <Slide direction='right'>
           <div className={styles.container2}>
@@ -178,7 +178,7 @@ export default function Home() {
         <div  className={styles.panel5}>
         <div id='portfolio' className={styles.container1}>
             <span className={styles.panel5title}> Portfolio</span>
-            <Carousel sx={{width:"900px"}}>
+            <Carousel className={styles.carouselmb}>
             <a  href='https://voltage.finance/'><img className={styles.portfolio} src='/voltage.png'/> </a>
             <a  href='https://truestan.herokuapp.com/'><img className={styles.portfolio} src='/truestan.png'/></a>
             <img className={styles.portfolio} src='/odin.png'/>
