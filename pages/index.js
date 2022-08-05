@@ -134,9 +134,6 @@ export default function Home() {
           <ul className={styles.list1}>
           <h1 className={styles.textStyle}>Past Life</h1>
               <li>
-                I played D1 baseball at both West Virginia University, and Mercer University
-              </li> &nbsp;
-              <li>
                 Prior to development I held multiple roles as a marketer. As a result, I have spent extensive time researching consumer psychology to build products around sound business models that capture and hold users
               </li>
           </ul>
